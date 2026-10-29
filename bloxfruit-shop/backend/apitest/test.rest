@@ -1,0 +1,15 @@
+### 
+GET http://localhost:4002/fruitslist
+###
+GET http://localhost:4002/
+### 
+GET http://localhost:4002/api/healthchecks
+### 
+GET http://localhost:4002/data
+###
+POST http://localhost:4002/api/testdata
+Content-Type: application/json
+
+{
+    "data": "araiwa ikai"
+}
