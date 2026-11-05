@@ -1,6 +1,8 @@
+require('dotenv').config();
+require('./config/db');
 const express = require('express');
 const app = express();
-port = 4002;
+const port = process.env.PORT || 4002;
 
 let data = ['dabi'];
 let tesdata = ['dumdotnigga'];
